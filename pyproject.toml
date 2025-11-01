@@ -1,0 +1,14 @@
+[project]
+name = "web3-trading-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lighter-sdk",
+    "requests>=2.32.5",
+    "web3>=7.14.0",
+]
+
+[tool.uv.sources]
+lighter-sdk = { git = "https://github.com/elliottech/lighter-python.git" }

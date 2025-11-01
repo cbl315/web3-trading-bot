@@ -1,0 +1,4 @@
+web3
+requests
+# Lighter exchange SDK
+git+https://github.com/elliottech/lighter-python.git
